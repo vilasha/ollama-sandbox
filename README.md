@@ -42,3 +42,11 @@ This will generate and print a commit command like:
 command, edit the message if needed, and hit Enter
 6. Run ai-commit again to regenerate (subsequent runs are faster because the model stays warm)
 
+## events-post-creator
+A Jupyter notebook that generates posts for Twitter, Instagram and Facebook (all in Markdown) from content of a given
+URL. Accounts for a language
+
+**Usage**
+1. Install ollama python package (either with pip or with PyCharm packages window or directly from the notebook)
+2. Run all the cells, the output will appear at the bottom. Depending on your machine and the website might take from
+1 to 4 minutes to execute the code
