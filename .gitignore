@@ -203,3 +203,6 @@ cython_debug/
 
 # PyCharm
 .idea
+.venv/
+__pycache__/
+*.pyc
