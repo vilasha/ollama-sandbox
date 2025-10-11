@@ -50,3 +50,28 @@ URL. Accounts for a language
 1. Install ollama python package (either with pip or with PyCharm packages window or directly from the notebook)
 2. Run all the cells, the output will appear at the bottom. Depending on your machine and the website might take from
 1 to 4 minutes to execute the code
+
+## leader-election
+A Jupyter notebook that simulates a leadership election among three AI chatbots (Alex, Blake, Charlie) using open-source LLMs via Ollama. Each AI generates a pitch for leadership and votes on others' pitches, with a winner determined by majority vote.
+
+**Prerequisites**
+
+1. Install the `ollama` Python package (e.g., `pip install ollama` or via PyCharm).
+2. Ensure Ollama server is running at `http://localhost:11434` with models:
+   - `llama3.2:3b`
+   - `qwen2.5:7b`
+   - `mistral:7b`
+   Run `ollama pull <model_name>` for each.
+3. Install `IPython` for Markdown rendering (e.g., `pip install ipython`).
+
+**Usage**
+
+1. Open the notebook in PyCharm's Jupyter mode
+2. Run all cells with `Ctrl+Enter` (per cell) or "Run All"
+3. Outputs (in Markdown):
+   - Model name as header, system prompt in italic, user prompt, pih.
+   - Voting results: model (name), "voted for", voted name
+   - Winner/tie
+
+For voting temperature is adjusted, otherwise models don't stick to 1-token reply, and keep giving a long speech on whom do they vote and why
+4. Execution time depends on CPU and models (typically 1-5 minutes for all pitches and votes)
