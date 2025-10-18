@@ -26,6 +26,8 @@ All tools assume that Ollama is installed and that you have at least one model a
    ```powershell
    ollama rm MODEL_NAME
 
+---
+
 ## ai-commit
 
 A Windows script that generates a Git commit message from your staged changes
@@ -51,6 +53,8 @@ This will generate and print a commit command like:
    command, edit the message if needed, and hit Enter
 6. Run ai-commit again to regenerate (subsequent runs are faster because the model stays warm)
 
+---
+
 ## events-post-creator
 
 A Jupyter notebook that generates posts for Twitter, Instagram and Facebook (all in Markdown) from content of a given
@@ -61,6 +65,8 @@ URL. Accounts for a language
 1. Install ollama python package (either with pip or with PyCharm packages window or directly from the notebook)
 2. Run all the cells, the output will appear at the bottom. Depending on your machine and the website might take from
    1 to 4 minutes to execute the code
+
+---
 
 ## leader-election
 
@@ -92,6 +98,8 @@ do they vote and why
 
 4. Execution time depends on CPU and models (typically 1-5 minutes for all pitches and votes)
 
+---
+
 ## company-brochure-generator
 
 A Jupyter notebook that streams a short, humorous, emoji-rich company brochure in Markdown by scraping a website (or
@@ -111,4 +119,21 @@ collected links, concatenates its content into a second prompt to ollama, anf ro
    # Construo: Building with a Wink! 😎
    Swiss tech wizards making construction fun...
    ```
-   
+
+---
+
+## windows-linux-hollywar
+
+A Jupyter notebook that simulates 2 argumentative bots debating Linux vs Windows, with a polite Judge finding common ground.
+Uses Gemini free tier to generate witty, personality-driven responses in a live conversation stream.
+
+**Bots:**
+- 🐧 Linux Fan: Snarky, disagrees with everything, loves Linux
+- 🪟 Windows Fan: Sarcastic, challenges everything, loves Windows  
+- ⚖️ Judge: Polite, calms them down, finds common ground
+
+### **Usage**
+1. Install: `pip install google-generativeai python-dotenv`
+2. Add `GOOGLE_API_KEY` to `.env` file
+3. Run all the cells
+4. Output: Live-streamed debate with 5 rounds!
