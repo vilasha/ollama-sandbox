@@ -109,12 +109,11 @@ Scrapes a company site, classifies links (e.g., About, Careers) outputs them ***
 collected links, concatenates its content into a second prompt to ollama, anf rom that generates a fun brochure
 ***in streaming mode*** with witty, engaging text for customers, investors, and recruits.
 
-**Usage**
+**Input**: GUI in browser on localhost http://127.0.0.1:[random_port], forced dark theme:
 
-1. Open in PyCharm’s Jupyter mode.
-2. Set `COMPANY_NAME` and `COMPANY_WEBSITE`.
-3. Run cells with `Ctrl+Enter` or “Run All”.
-4. **Output**: Live-streamed Markdown brochure with humorous wording, e.g.:
+<img src="src/company-brochure/input.png" alt="input" width="300"/>
+
+**Output**: Live-streamed Markdown brochure with humorous wording, e.g.:
    ```markdown
    # Construo: Building with a Wink! 😎
    Swiss tech wizards making construction fun...
