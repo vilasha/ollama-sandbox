@@ -136,3 +136,6 @@ Uses Gemini free tier to generate witty, personality-driven responses in a live 
 2. Add `GOOGLE_API_KEY` to `.env` file
 3. Run all the cells
 4. Output: Live-streamed debate with 5 rounds!
+
+## sponge-bob-chat
+Chat with Sponge Bob Square Pants. Uses chat interface from Gradio, custom CSS for the theme, a local ollama model to generate responses
