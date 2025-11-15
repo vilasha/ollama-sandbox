@@ -139,3 +139,7 @@ Uses Gemini free tier to generate witty, personality-driven responses in a live 
 
 ## sponge-bob-chat
 Chat with Sponge Bob Square Pants. Uses chat interface from Gradio, custom CSS for the theme, a local ollama model to generate responses
+
+## tools
+Example of using tools (python functions) for LLM - price flights assistant chatbot with 2 defined tools: get_airport function 
+and get_base_price function. Uses chat interface from Gradio and local ollama model to generate responses
