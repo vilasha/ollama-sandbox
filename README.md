@@ -143,3 +143,13 @@ Chat with Sponge Bob Square Pants. Uses chat interface from Gradio, custom CSS f
 ## tools
 Example of using tools (python functions) for LLM - price flights assistant chatbot with 2 defined tools: get_airport function 
 and get_base_price function. Uses chat interface from Gradio and local ollama model to generate responses
+
+## hugging-face-pipelines
+Use HuggingFace high-level API (pipelines) for
+- text classification
+- text summarization
+- text translation
+- generation of audio (text-to-speech)
+- generation of image (text-to-image)
+
+**Important**: this is Google Colab Jupyter notebook, not Ollama, because we need GPU for the tasks (especially with audio and image generation)
