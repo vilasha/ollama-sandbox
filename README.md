@@ -153,3 +153,7 @@ Use HuggingFace high-level API (pipelines) for
 - generation of image (text-to-image)
 
 **Important**: this is Google Colab Jupyter notebook, not Ollama, because we need GPU for the tasks (especially with audio and image generation)
+
+## model-inner-structure
+A set of Google Colab notebooks, where we experiment with tokenizers, model inner structure and quantization
+- Tokenizers_and_templates.ipynb: see how a simple message tokenizes into tokens, and how a message history with a dialog between user and assistant does (with one prefix of system message)
