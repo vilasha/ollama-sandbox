@@ -157,3 +157,7 @@ Use HuggingFace high-level API (pipelines) for
 ## model-inner-structure
 A set of Google Colab notebooks, where we experiment with tokenizers, model inner structure and quantization
 - Tokenizers_and_templates.ipynb: see how a simple message tokenizes into tokens, and how a message history with a dialog between user and assistant does (with one prefix of system message)
+
+## meeting-minutes
+Use speech-to-text model to convert audio-file (mp3) into transcript, and then use quantized Llama model to convert transcript into an actionable summary
+This is the Google Colab notebook, not local
