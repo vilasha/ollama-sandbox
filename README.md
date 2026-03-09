@@ -161,3 +161,7 @@ A set of Google Colab notebooks, where we experiment with tokenizers, model inne
 ## meeting-minutes
 Use speech-to-text model to convert audio-file (mp3) into transcript, and then use quantized Llama model to convert transcript into an actionable summary
 This is the Google Colab notebook, not local
+
+## joda-finetuning
+Fine-tuning Llama-3.2 to Speak Like Master Yoda
+This Google Colab notebook walks through an end-to-end LLM fine-tuning pipeline, from dataset generation to a live interactive demo
